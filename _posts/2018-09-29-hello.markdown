@@ -1,0 +1,46 @@
+﻿---
+layout:     post
+title:      "Welcome to newruby Blog"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2018-09-29 23:00:00
+author:     "shellyz"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
+> “Yeah It's on. ”
+
+
+## 正文
+
+一直想建一个个人博客 githubdesktop各种难用，各种warning,error
+断断续续两三天算基本搭好。之后再完善。感谢Hux提供的主题
+
+
+
+-2018-09
+
+
+2018-10-03更新
+* 小细节已经修是好  加入不蒜子
+在你完成部署后，可能你会发现，自己网站的PV数和UV数都非常大，这是正常情况，因为使用不蒜子统计的用户都使用同一个存储空间，如果你的URL和别人重复，就会出现数据量异常。这样的情况一般出现在你使用localhost:4000访问自己在本地部署的网页的时候。如果你希望自己博客可以使用自己独立的一个存储空间，
+Hexo博客-NexT主题：使用不蒜子进行页面访客统计 | Winton的学习笔记  https://lfwen.site/2016/11/13/next-busuanzi-vistor-count/
+
+* 日期为10月份及以后的无法显示 ✔
+今后需要改进的
+* 搜索功能 jekyll插件功能
+* 加入打赏功能
+* archieve
+* 或者改成hexo  github star
+* arkdown  jupyterbook  幻灯演示
+
+
+
+较完整的教程
+http://www.hiekay.com/2018/09/04/github-hexo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/
+
+<p id = "build"></p>
+---
+
+

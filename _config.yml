@@ -2,7 +2,7 @@
 title: newruby Blog
 SEOTitle: shelly的博客 | shelly Blog
 header-img: img/home-bg.jpg
-email: zhangrr@bupt.edu.cn
+#email: 
 description: "初见的红宝石"
 keyword: ""
 url: "newruby.github.io/"              # your host, for absolute URL
@@ -67,7 +67,8 @@ livere_uid: MTAyMC8zMjU1NC85MTE1
 #ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 #ga_domain: huangxuan.me
 
-
+#######
+#busuanzi: true
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -83,21 +84,12 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Friends
-friends: [
-    {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    }
-]
+#friends: [
+#    {
+#        title: "Hux Blog",
+#        href: "http://huangxuan.me"
+#    },{
+#        title: "Foo",
+#        href: "#"
+#    }
+#]
