@@ -1,0 +1,40 @@
+﻿---
+layout:     post
+title:      "解决“虚拟机可以ping通主机，主机不能ping通虚拟机”的问题"
+
+date:       2018-12-13 10:50:00
+author:     "shellyz"
+
+tags:
+    - 安装配置问题
+---
+
+## 正文
+
+最近在虚拟机上安装了asterisk，想在主机用VOIP客户端注册到服务器，却发现主机不能ping通虚拟机”的问题。用以下步骤解决了该问题：
+
+>1.虚拟机设置 网络适配器 网络连接改为NAT模式   
+
+>2.关闭虚拟机防火墙    
+sudo ufw disable
+（开启防火墙ufw enable）   
+
+>3.主机关闭防火墙   
+
+>4.查看虚拟机Ip  ipconfig   
+
+>5.主机网络连接 选择VMware Network Adapter VMnet8  属性  
+配置IP 子网掩码 默认网关和虚拟机一样的  
+
+
+
+
+* [Reference：主机ping不通虚拟机，但是虚拟机能ping通主机](https://blog.csdn.net/qqxyy99/article/details/80864862)
+
+
+
+
+<p id = "build"></p>
+---
+
+
